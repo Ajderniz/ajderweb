@@ -1,0 +1,19 @@
+
+body {
+	font-family: "BIZ UDGothic", "MS Gothic" "Arial";
+
+	color: rgb(243, 231, 191);
+	background-color: rgb(80, 101, 146);
+
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: rgb(243, 150, 72);
+}
+
+a:hover {
+	color: rgb(243, 231, 191);
+}

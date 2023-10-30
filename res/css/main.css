@@ -1,0 +1,76 @@
+
+body {
+        font-family: "BIZ UDMincho", "MS Mincho", "Times New Roman";
+        background-color: rgb(192, 47, 54);
+        color: rgb(243, 231, 191);
+        font-size: 24px;
+        text-align: center;
+}
+
+h1 {
+        font-size: 128px;
+}
+h2 {
+        font-size: 64px;
+}
+h3 {
+        font-size: 32px;
+}
+
+a {
+        color: rgb(38, 200, 140);
+        font-style: italic;
+}
+
+a:hover {
+        color: rgb(243, 231, 191);
+}
+
+.caja {
+        background-color: rgb(23, 51, 90);
+        padding: 12px;
+        border-style: double;
+        border-width: 6px;
+        text-align: left;
+}
+
+.caja.barra {
+        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+        width: 250;
+        height: 93%;
+        position: fixed;
+        z-index: 1;
+        top: 20px;
+        bottom: 20px;
+        left: 10px;
+        overflow-x: hidden;
+}
+
+.caja h3, .caja p {
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+.barra h3, .barra ul {
+        margin-top: 6px;
+        margin-bottom: 6px;
+}
+
+.main {
+        margin-left: 260px;
+}
+
+#titulo {       
+        font-style: italic;
+        text-shadow: 12px 12px 0px rgb(23, 51, 90);
+        line-height: 12px;
+}
+
+#subtitulo {
+        background: rgb(23, 51, 90);
+}
+
+#talon {
+        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+        font-size: 18px;
+}
