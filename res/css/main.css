@@ -61,7 +61,7 @@ a:hover {
         font-style: italic;
         text-shadow: 12px 12px 0px rgb(2, 29, 50);
         margin: auto;
-        width: max-content;
+        overflow-wrap: break-word;
 }
 
 #subtitulo {
