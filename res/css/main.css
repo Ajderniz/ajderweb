@@ -1,12 +1,76 @@
 
+body, html {
+        margin: 0;
+        height: 100%;
+}
+
 body {
         font-family: "BIZ UDMincho", "MS Mincho", "Times New Roman";
-        background-image: url("../img/fabric.png");
         color: rgb(243, 231, 191);
         font-size: 24px;
         text-align: center;
         word-wrap: break-word;
-        margin: auto
+        background-image: url("../img/fabric.png");
+
+        display: flex;
+        height: 100%;
+
+        main {
+
+                display: flex;
+                overflow: hidden;
+
+                aside {
+                        flex: 1 0 auto;
+
+                        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+
+                        h3, p {
+                                margin-bottom: 0px;
+                        }
+                }
+                article {
+
+                        flex: 4 0 inherit;
+
+                        #titulo {       
+                                font-style: italic;
+                                text-shadow: 12px 12px 0px rgb(2, 29, 50);
+                                margin: auto;
+                                overflow-wrap: break-word;
+                        }
+                        #subtitulo {
+                                text-align: center;
+                        }
+
+                        display: flex;
+                        flex-direction: column;
+
+                        .caja {
+                                margin-left: 0;
+                                margin-bottom: 0;
+                        }
+
+                        .contenido {
+                                overflow: scroll;
+
+                                .caja {
+                                        background: none;
+                                        margin: 0;
+                                        border: none;
+                                        p {
+                                                margin-bottom: 20px;
+                                        }
+                                }
+                        }
+                }
+                footer {
+                        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+                        font-size: auto;
+                        padding-bottom: 12px;
+                        padding-top: 12px;
+                }
+        }
 }
 
 h1 {
@@ -35,40 +99,8 @@ a:hover {
         border-style: double;
         border-width: 6px;
         text-align: left;
-}
 
-.caja.barra {
-        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        bottom: 0;
-}
-
-.caja h3, .caja p {
-        margin: auto;
-}
-
-.caja p {
-        margin-bottom: 20px;
-}
-
-.main {
-        margin-left: 260px;
-}
-
-#titulo {       
-        font-style: italic;
-        text-shadow: 12px 12px 0px rgb(2, 29, 50);
-        margin: auto;
-        overflow-wrap: break-word;
-}
-
-#subtitulo {
-        text-align: center;
-}
-
-#talon {
-        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
-        font-size: 18px;
+        h3, p, ul {
+                margin: auto;
+        }
 }
