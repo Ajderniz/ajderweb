@@ -14,10 +14,12 @@ body {
 
         display: flex;
         height: 100%;
+        justify-content: center;
 }
 
 main {
         display: flex;
+        flex-basis: 800px;
         overflow: hidden;
         padding: 12px;
         gap: 12px
