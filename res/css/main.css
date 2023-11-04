@@ -45,6 +45,10 @@ article {
         gap: 12px;
 
 }
+article .caja {
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+}
 
 footer {
         font-family: "Gothic", "MS Gothic", "Arial", "Helvetica", "sans-serif";
@@ -57,7 +61,6 @@ footer {
 }
 .contenido .caja {
         background: none;
-        margin: 0;
         border: none;
 }
 .contenido .caja p {
@@ -93,6 +96,11 @@ a:hover {
 }
 .caja h3, .caja p, .caja ul {
         margin: auto;
+}
+
+#barra {
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
 }
 
 #titulo, #subtitulo {
