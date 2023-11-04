@@ -1,11 +1,21 @@
 
+@font-face {
+        font-family: "Gothic";
+        src: url("../fonts/BIZ_UDGothic.woff");
+}
+
+@font-face {
+        font-family: "Mincho";
+        src: url("../fonts/BIZ_UDMincho.woff");
+}
+
 body, html {
         margin: 0;
         height: 100%;
 }
 
 body {
-        font-family: "BIZ UDMincho", "MS Mincho", "Times New Roman";
+        font-family: "Mincho", "MS Mincho", "Times New Roman", "Times", "serif";
         color: rgb(243, 231, 191);
         font-size: 24px;
         text-align: center;
@@ -26,7 +36,7 @@ main {
 }
 
 aside {
-        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+        font-family: "Gothic", "MS Gothic", "Arial", "Helvetica", "sans-serif";
 }
 
 article {
@@ -37,7 +47,7 @@ article {
 }
 
 footer {
-        font-family: "BIZ UDGothic", "MS Gothic", "Arial";
+        font-family: "Gothic", "MS Gothic", "Arial", "Helvetica", "sans-serif";
         font-size: 18px;
 }
 
