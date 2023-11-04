@@ -19,6 +19,7 @@ body {
         color: rgb(243, 231, 191);
         font-size: 24px;
         text-align: center;
+        text-shadow: 5px 5px 0 rgb(2, 29, 50);
         word-wrap: break-word;
         background-image: url("../img/fabric.png");
 
@@ -92,6 +93,7 @@ a:hover {
         border-width: 6px;
         border-radius: 30px;
         text-align: left;
+        text-shadow: none;
 
 }
 .caja h3, .caja p, .caja ul {
@@ -108,7 +110,6 @@ a:hover {
 }
 #titulo {       
         font-style: italic;
-        text-shadow: 12px 12px 0px rgb(2, 29, 50);
         overflow-wrap: break-word;
 }
 #subtitulo {
