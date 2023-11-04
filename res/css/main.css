@@ -96,7 +96,7 @@ a:hover {
         text-shadow: none;
 
 }
-.caja h3, .caja p, .caja ul {
+.caja * {
         margin: auto;
 }
 
