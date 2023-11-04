@@ -1,12 +1,12 @@
 
 @font-face {
-        font-family: "Gothic";
-        src: url("../fonts/BIZ_UDGothic.woff");
+        font-family: Gothic;
+        src: url(../fonts/BIZ_UDGothic.woff);
 }
 
 @font-face {
-        font-family: "Mincho";
-        src: url("../fonts/BIZ_UDMincho.woff");
+        font-family: Mincho;
+        src: url(../fonts/BIZ_UDMincho.woff);
 }
 
 body, html {
@@ -15,13 +15,13 @@ body, html {
 }
 
 body {
-        font-family: "Mincho", "MS Mincho", "Times New Roman", "Times", "serif";
-        color: rgb(243, 231, 191);
+        font-family: BIZ UDMincho, Mincho, MS Mincho, Times New Roman, Times, serif;
+        color: #F3E7BF;
         font-size: 24px;
         text-align: center;
-        text-shadow: 5px 5px 0 rgb(2, 29, 50);
+        text-shadow: 5px 5px 0 #021D32;
         word-wrap: break-word;
-        background-image: url("../img/fabric.png");
+        background-image: url(../img/fabric.png);
 
         display: flex;
         height: 100%;
@@ -37,7 +37,7 @@ main {
 }
 
 aside {
-        font-family: "Gothic", "MS Gothic", "Arial", "Helvetica", "sans-serif";
+        font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
 }
 
 article {
@@ -52,7 +52,7 @@ article .caja {
 }
 
 footer {
-        font-family: "Gothic", "MS Gothic", "Arial", "Helvetica", "sans-serif";
+        font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
         font-size: 18px;
 }
 
@@ -79,15 +79,15 @@ h3 {
 }
 
 a {
-        color: rgb(38, 200, 140);
+        color: #26C88C;
         font-style: italic;
 }
 a:hover {
-        color: rgb(243, 231, 191);
+        color: #F3E7BF;
 }
 
 .caja {
-        background-image: url("../img/marble.png");
+        background-image: url(../img/marble.png);
         padding: 12px;
         border-style: double;
         border-width: 6px;
