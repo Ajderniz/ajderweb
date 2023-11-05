@@ -69,14 +69,6 @@ footer {
         font-size: 18px;
 }
 
-#contenido {
-        overflow: auto;
-
-}
-#contenido p {
-        margin-bottom: 20px;
-}
-
 h1 {
         font-size: 98px;
 }
@@ -122,4 +114,12 @@ a:hover {
 }
 #subtitulo {
         text-align: center;
+}
+
+#contenido {
+        overflow: auto;
+
+}
+#contenido p {
+        margin-bottom: 20px;
 }
