@@ -34,14 +34,27 @@ main {
         overflow: hidden;
         padding: 12px;
         gap: 12px
+        
+        /*flex-wrap: wrap;*/
 }
 
 aside {
         font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
+
+        display: flex;
+        flex: 1 0 min-content;
+        flex-wrap: wrap;
+        align-content: baseline;
+        gap: inherit;
+}
+aside .caja {
+        flex: 1 1 min-content;
+        text-align: right;
 }
 
 article {
         display: flex;
+        flex: 1 1 540px;
         flex-direction: column;
         gap: 12px;
 
@@ -56,15 +69,11 @@ footer {
         font-size: 18px;
 }
 
-.contenido {
+#contenido {
         overflow: auto;
 
 }
-.contenido .caja {
-        background: none;
-        border: none;
-}
-.contenido .caja p {
+#contenido p {
         margin-bottom: 20px;
 }
 
@@ -92,9 +101,8 @@ a:hover {
         border-style: double;
         border-width: 6px;
         border-radius: 30px;
-        text-align: left;
+        text-align: justify;
         text-shadow: none;
-
 }
 .caja * {
         margin: auto;
