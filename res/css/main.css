@@ -49,12 +49,12 @@ aside {
 }
 aside .caja {
         flex: 1 1 min-content;
-        text-align: right;
+        text-align: center;
 }
 
 article {
         display: flex;
-        flex: 1 1 540px;
+        flex: 1 1 550px;
         flex-direction: column;
         gap: 12px;
 
