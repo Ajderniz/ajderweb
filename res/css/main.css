@@ -79,6 +79,11 @@ h3 {
         font-size: 32px;
 }
 
+hr {
+    color: #F3E7BF;
+    width: 150px;
+}
+
 a {
         color: #26C88C;
         font-style: italic;
