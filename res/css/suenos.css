@@ -1,0 +1,24 @@
+html, body {
+        margin: 0;
+        height: 100%;
+}
+body #contenedor {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+}
+body #contenedor main {
+        overflow: hidden;
+        display: flex;
+}
+body #contenedor main aside {
+        flex: 0 0 auto;
+}
+body #contenedor main article {
+        display: flex;
+        flex-direction: column;
+
+}
+body #contenedor main article #contenido {
+        overflow: auto;
+}
