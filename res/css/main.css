@@ -13,58 +13,77 @@ body, html {
         margin: 0;
         height: 100%;
 }
-
 body {
-        font-family: BIZ UDMincho, Mincho, MS Mincho, Times New Roman, Times, serif;
+        display: flex;
+        justify-content: center;
+
+        height: 100%;
+
         color: #F3E7BF;
-        font-size: 24px;
-        text-align: center;
-        text-shadow: 5px 5px 0 #021D32;
-        word-wrap: break-word;
         background-image: url(../img/fabric.png);
 
-        display: flex;
-        height: 100%;
-        justify-content: center;
-}
+        font-family: BIZ UDMincho, Mincho, MS Mincho, Times New Roman, Times, serif;
+        font-size: 24px;
 
-main {
+        text-align: center;
+        text-shadow: 5px 5px 0 #021D32;
+
+}
+body main {
         display: flex;
+        /*flex-wrap: wrap;*/
+        gap: 12px;
+
         flex-basis: 800px;
+
         overflow: hidden;
         padding: 12px;
-        gap: 12px
-        
-        /*flex-wrap: wrap;*/
 }
-
-aside {
-        font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
-
+body main aside {
         display: flex;
-        flex: 1 0 min-content;
         flex-wrap: wrap;
         align-content: baseline;
         gap: inherit;
+
+        flex: 1 0 min-content;
+
+        font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
 }
-aside .caja {
+body main aside#barra {
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+}
+body main aside .caja {
         flex: 1 1 min-content;
         text-align: center;
 }
-
-article {
+body main article {
         display: flex;
-        flex: 1 1 550px;
         flex-direction: column;
         gap: 12px;
 
+        flex: 1 1 550px;
 }
-article .caja {
+body main article .caja {
         border-top-right-radius: 7px;
         border-bottom-right-radius: 7px;
 }
-
-footer {
+body main article #titulo, #subtitulo {
+        margin: 0;
+}
+body main article #titulo {       
+        font-style: italic;
+}
+body main article #subtitulo {
+        text-align: center;
+}
+body main article #contenido {
+        overflow: auto;
+}
+body main article #contenido p {
+        margin-bottom: 20px;
+}
+body main article footer {
         font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
         font-size: 18px;
 }
@@ -103,28 +122,4 @@ a:hover {
 }
 .caja * {
         margin: auto;
-}
-
-#barra {
-        border-top-left-radius: 7px;
-        border-bottom-left-radius: 7px;
-}
-
-#titulo, #subtitulo {
-        margin: 0;
-}
-#titulo {       
-        font-style: italic;
-        overflow-wrap: break-word;
-}
-#subtitulo {
-        text-align: center;
-}
-
-#contenido {
-        overflow: auto;
-
-}
-#contenido p {
-        margin-bottom: 20px;
 }
