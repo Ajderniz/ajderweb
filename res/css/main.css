@@ -62,7 +62,7 @@ body main article {
         flex-direction: column;
         gap: 12px;
 
-        flex: 1 1 550px;
+        flex: 1 1 max-content;
 }
 body main article .caja {
         border-top-right-radius: 7px;
@@ -89,13 +89,13 @@ body main article footer {
 }
 
 h1 {
-        font-size: 98px;
+        font-size: 90px;
 }
 h2 {
-        font-size: 64px;
+        font-size: 45px;
 }
 h3 {
-        font-size: 32px;
+        font-size: 28px;
 }
 
 hr {
@@ -116,7 +116,7 @@ a:hover {
         padding: 12px;
         border-style: double;
         border-width: 6px;
-        border-radius: 30px;
+        border-radius: 50px;
         text-align: justify;
         text-shadow: none;
 }
