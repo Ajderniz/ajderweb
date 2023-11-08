@@ -31,7 +31,6 @@ body {
 }
 body main {
         display: flex;
-        /*flex-wrap: wrap;*/
         gap: 12px;
 
         flex-basis: 800px;
@@ -40,22 +39,19 @@ body main {
         padding: 12px;
 }
 body main aside {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: baseline;
-        gap: inherit;
-
         flex: 1 0 min-content;
 
         font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
 }
+body main aside a {
+        display: block;
+}
+body main aside .caja {
+        text-align: center;
+}
 body main aside#barra, body main aside .caja {
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
-}
-body main aside .caja {
-        flex: 1 1 min-content;
-        text-align: center;
 }
 body main article {
         display: flex;
@@ -100,7 +96,6 @@ h3 {
 
 hr {
     color: #F3E7BF;
-    width: 150px;
 }
 
 a {
