@@ -43,11 +43,21 @@ body main aside {
 
         font-family: BIZ UDGothic, Gothic, MS Gothic, Arial, Helvetica, sans-serif;
 }
-body main aside a {
+body main aside ul {
+        list-style-type: none;
+        padding-left: 0;
+}
+body main aside ul li { 
+        margin-block: 12px;
+}
+body main aside ul li a {
         display: block;
 }
 body main aside .caja {
         text-align: center;
+}
+body main aside#barra * {
+	margin-bottom: 6px;
 }
 body main aside#barra, body main aside .caja {
         border-top-left-radius: 7px;
