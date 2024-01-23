@@ -11,6 +11,10 @@ body {
 table, th, td {
 	border-collapse: collapse;
 }
+img {
+	width: 12px;
+	height: 12px;
+}
 .bold {
 	font-weight: bold;
 }
@@ -29,7 +33,5 @@ footer, .r {
 }
 .tabla {
 	width: 100%;
-}
-#horario tr > td {
-	border: 1px solid black;
+	text-align: center;
 }
