@@ -4,43 +4,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Guía de Actividades</title>
-		<link rel="stylesheet" type="text/css" href="">
-		<style>
-			* {
-				font-family: monospace;
-			}
-			table, th, td {
-				border-collapse: collapse;
-			}
-			.bold {
-				font-weight: bold;
-			}
-			.c {
-				text-align: center;
-			}
-			footer, .r {
-				text-align: right;
-			}
-			.shade {
-				background-color: lightgray;
-			}
-			.contrast {
-				background-color: black;
-				color: white;
-			}
-			.tabla {
-				width: 100%;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			#horario tr > td {
-				border: 1px solid black;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="../res/css/guia.css">
 	</head>
 
 	<header>Versión: 22-01-2024</header>
 	<body>
+		<hr>
 		<h1>Guía de Actividades</h1>
 		<p>Ésta es una guía no sólo de estudio, sino de actividad general,
 		diseñada con la intención de organizarme, tomando en cuenta la
@@ -54,18 +23,18 @@
 		<h2>Iconos</h2>
 		<table>
 			<tr>
-				<td class='bold r'><img src=./img/estrella.svg alt=* width=12 height=12>
+				<td class='bold r'><img src=../res/img/estrella.svg alt=* width=12 height=12>
 				</td>
 				<td>Actividad de prioridad. De ocurrencia diaria.</td>
 			</tr>
 			<tr>
-				<td class='bold r'><img src=./img/i.svg alt=I width=12 height=12>
+				<td class='bold r'><img src=../res/img/i.svg alt=I width=12 height=12>
 				</td>
 				<td>Entrada. Parte del programa con un enfoque en el estudio
 					pasivo. Se permite la práctica teórica si la hay.</td>
 			</tr>
 			<tr>
-				<td class='bold r'><img src=./img/o.svg alt=O width=12 height=12>
+				<td class='bold r'><img src=../res/img/o.svg alt=O width=12 height=12>
 				</td>
 				<td>Salida. Parte del programa con un enfoque en la producción
 					de resultados. Pensado para la elaboración de proyectos
@@ -77,98 +46,98 @@
 		<h2>Listado de actividades</h2>
 		<table class=tabla>
 			<tr class=contrast>
-				<th class=r>Abreviación</th>
+				<th class=r style='width: 10%'>Abreviación</th>
 				<th>Nombre</th>
-				<th colspan=2>Programa</th>
+				<th colspan=2 style='width: 10%'>Programa</th>
 			</tr>
 			<tr>
 				<td class='bold r'>
-					<img src=./img/estrella.svg alt='*' width=12 height=12>
+					<img src=../res/img/estrella.svg alt='*' width=12 height=12>
 					DIOS
 				</td>
-				<td class=c><a href=./dios/>Biblia y Teología</a></td>
+				<td class=c><a href=./dios.html>Biblia y Teología</a></td>
 				<td class=c>
-					<a href=./dios/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./dios.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./dios/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=dios.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr class=shade>
 				<td class='bold r'>DWEB</td>
-				<td class=c><a href=./dweb/>Desarrollo Web</a></td>
+				<td class=c><a href=./dweb.html>Desarrollo Web</a></td>
 				<td class=c>
-					<a href=./dweb/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./dweb.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./dweb/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./dweb.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr>
 				<td class='bold r'>
-					<img src=./img/estrella.svg alt='*' width=12 height=12>
+					<img src=../res/img/estrella.svg alt='*' width=12 height=12>
 					FISC
 				</td>
-				<td class=c><a href=./fisc//>Aptitud Física</a></td>
+				<td class=c><a href=./fisc.html>Aptitud Física</a></td>
 				<td>
 				<td class=c colspan=2>
-					<a href=./fisc/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./fisc.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr class=shade>
 				<td class='bold r'>GRAF</td>
-				<td class=c><a href=./graf/>Artes Gráficas</a></td>
+				<td class=c><a href=./graf.html>Artes Gráficas</a></td>
 				<td class=c>
-					<a href=./graf/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./graf.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./graf/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./graf.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr>
 				<td class='bold r'>INFO</td>
-				<td class=c><a href=./info/>Ciencia Informática</a></td>
+				<td class=c><a href=./info.html>Ciencia Informática</a></td>
 				<td class=c>
-					<a href=./info/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./info.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td>
 			</tr>
 			<tr class=shade>
 				<td class='bold r'>LITR</td>
-				<td class=c><a href=./litr/>Artes Literarias</a></td>
+				<td class=c><a href=./litr.html>Artes Literarias</a></td>
 				<td class=c>
-					<a href=./litr/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./litr.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./litr/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./litr.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr>
 				<td class='bold r'>MATE</td>
-				<td class=c><a href=./mate/>Matemática</a></td>
+				<td class=c><a href=./mate.html>Matemática</a></td>
 				<td class=c>
-					<a href=./mate/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./mate.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td>
@@ -176,32 +145,32 @@
 			<tr class=shade> 
 				<td class='bold r'>PROG</td>
 				<td class=c>
-					<a href=./prog/>Programación</a></td>
+					<a href=./prog.html>Programación</a></td>
 				<td class=c>
-					<a href=./prog/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./prog.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./prog/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./prog.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
 			<tr>
 				<td class='bold r'>
-					<img src=./img/estrella.svg alt='*' width=12 height=12>
+					<img src=../res/img/estrella.svg alt='*' width=12 height=12>
 					UNED
 				</td>
-				<td class=c><a href=./uned/>Bibliotecología</a></td>
+				<td class=c><a href=./uned.html>Bibliotecología</a></td>
 				<td class=c>
-					<a href=./uned/entrada.html>
-						<img src=./img/i.svg alt=Entrada width=12 height=12>
+					<a href=./uned.html#i>
+						<img src=../res/img/i.svg alt=I width=12 height=12>
 					</a>
 				</td>
 				<td class=c>
-					<a href=./uned/salida.html>
-						<img src=./img/o.svg alt=Salida width=12 height=12>
+					<a href=./uned.html#o>
+						<img src=../res/img/o.svg alt=O width=12 height=12>
 					</a>
 				</td>
 			</tr>
@@ -211,7 +180,7 @@
 		<h2>Horario</h2>
 		<table class=tabla id=horario>
 			<tr class=contrast>
-				<th class=r><img src=./img/reloj.svg alt=Hora></th>
+				<th class=r style='width: 10%'><img src=../res/img/reloj.svg alt=Hora></th>
 				<th>Dom</th>
 				<th>Lun</th>
 				<th>Mar</th>
@@ -225,165 +194,165 @@
 				<td colspan=7>
 			</tr>
 			<tr>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 06:00</td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 06:00</td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr class=shade>
-				<td class='contrast r'> <img src=./img/estrella_blanca.svg alt=* width=12 height=12> 06:30</td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DIOS <img src=./img/o.svg alt=O width=12 height=12></td>
+				<td class='contrast r'> <img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 06:30</td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DIOS <img src=../res/img/o.svg alt=O width=12 height=12></td>
 			</tr>
 			<tr>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 07:00</td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 07:00</td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
 			</tr>
 			<tr class=shade>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 08:00</td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 08:00</td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr>
 				<td class='contrast r'>09:00</td>
 				<td>
-				<td class=c>GRAF <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr class=shade>
 				<td class='contrast r'>10:00</td>
 				<td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr>
 				<td class='contrast r'>11:00</td>
 				<td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr class=shade>
 				<td class='contrast r'>12:00</td>
 				<td colspan=7>
 			</tr>
 			<tr>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 13:00</td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 13:00</td>
 				<td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
 			</tr>
 			<tr class=shade>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 14:00</td>
-				<td class=c>UNED <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 14:00</td>
+				<td class=c>UNED <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
 			</tr>
 			<tr>
 				<td class='contrast r'>15:00</td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>PROG <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>DWEB <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12</td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>PROG <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>DWEB <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12</td>
 			</tr>
 			<tr class=shade>
 				<td class='contrast r'>16:00</td>
-				<td class=c>LITR <img src=./img/o.svg alt=O width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>PROG <img src=./img/o.svg alt=O width=12 height=12</td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>DWEB <img src=./img/o.svg alt=O width=12 height=12</td>
-				<td class=c>MATE <img src=./img/i.svg alt=I width=12 height=12</td>
-				<td class=c>LITR <img src=./img/o.svg alt=O width=12 height=12</td>
+				<td class=c>LITR <img src=../res/img/o.svg alt=O width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>PROG <img src=../res/img/o.svg alt=O width=12 height=12</td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>DWEB <img src=../res/img/o.svg alt=O width=12 height=12</td>
+				<td class=c>MATE <img src=../res/img/i.svg alt=I width=12 height=12</td>
+				<td class=c>LITR <img src=../res/img/o.svg alt=O width=12 height=12</td>
 			</tr>
 			<tr>
 				<td class='contrast r'>17:00</td>
 				<td colspan=7>
 			</tr>
 			<tr class=shade>
-				<td class='contrast r'><img src=./img/estrella_blanca.svg alt=* width=12 height=12> 18:00</td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>FISC <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>UNED <img src=./img/o.svg alt=O width=12 height=12></td>
+				<td class='contrast r'><img src=../res/img/estrella_blanca.svg alt=* width=12 height=12> 18:00</td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>FISC <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>UNED <img src=../res/img/o.svg alt=O width=12 height=12></td>
 			</tr>
 			<tr>
 				<td class='contrast r'>19:00</td>
-				<td class=c>PROG <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>PROG <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/i.svg alt=O width=12 height=12</td>
+				<td class=c>PROG <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>PROG <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/i.svg alt=O width=12 height=12</td>
 			</tr>
 			<tr class=shade>
 				<td class='contrast r'>20:00</td>
-				<td class=c>PROG <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>PROG <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/i.svg alt=O width=12 height=12</td>
+				<td class=c>PROG <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>PROG <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/i.svg alt=O width=12 height=12</td>
 			</tr>
 			<tr>
 				<td class='contrast r'>21:00</td>
-				<td class=c>PROG <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>INFO <img src=./img/i.svg alt=I width=12 height=12></td>
-				<td class=c>LITR <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>PROG <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>GRAF <img src=./img/o.svg alt=O width=12 height=12></td>
-				<td class=c>DWEB <img src=./img/i.svg alt=O width=12 height=12</td>
+				<td class=c>PROG <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>INFO <img src=../res/img/i.svg alt=I width=12 height=12></td>
+				<td class=c>LITR <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>PROG <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>GRAF <img src=../res/img/o.svg alt=O width=12 height=12></td>
+				<td class=c>DWEB <img src=../res/img/i.svg alt=O width=12 height=12</td>
 			</tr>
 		</table>
-
+		<hr>
 	</body>
 	<footer>Versión: 22-01-2024</footer>
 
