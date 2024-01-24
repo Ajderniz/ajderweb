@@ -8,6 +8,12 @@ body {
 	margin-right: auto;
 	padding: 12px;
 }
+p {
+	text-indent: 32px;
+}
+ul {
+	text-align: left;
+}
 table, th, td {
 	border-collapse: collapse;
 }
@@ -34,4 +40,8 @@ footer, .r {
 .tabla {
 	width: 100%;
 	text-align: center;
+}
+.h-indent {
+	padding-left: 32px;
+	text-indent: -32px;
 }
