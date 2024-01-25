@@ -34,7 +34,7 @@ body main {
         gap: 12px;
 
         flex-basis: 800px;
-		max-height: 800px;
+		max-height: 96%;
 
 		align-self: center;
 
