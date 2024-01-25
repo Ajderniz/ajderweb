@@ -10,6 +10,7 @@ body {
 }
 p {
 	text-indent: 32px;
+	text-align: justify;
 }
 ul {
 	text-align: left;
